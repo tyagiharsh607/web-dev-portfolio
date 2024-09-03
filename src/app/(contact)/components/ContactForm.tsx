@@ -25,12 +25,7 @@ export function ContactForm() {
 
         try {
             emailjs
-                .sendForm(
-                    SERVICE_ID,
-                    TEMPLATE_ID,
-                    form.current!,
-                    PUBLIC_KEY
-                )
+                .sendForm(SERVICE_ID, TEMPLATE_ID, form.current!, PUBLIC_KEY)
                 .then(
                     (result) => {
                         console.log(result.text);
@@ -104,6 +99,22 @@ export function ContactForm() {
                             Send Message!
                         </Button>
                     </form>
+
+                    {/* New Section for Contact Information */}
+                    <div className="mt-12 text-center text-neutral-400 space-y-2">
+                        <h2 className="text-lg font-semibold text-white">
+                            Connect with Me Directly
+                        </h2>
+                        <p className="text-sm sm:text-base">
+                            <strong>Email:</strong>{" "}
+                            <a href="mailto:tyagiharsh607@gmail.com" className="hover:underline">
+                                tyagiharsh607@gmail.com
+                            </a>
+                        </p>
+                        <p className="text-sm sm:text-base">
+                            <strong>Phone:</strong> +91-8534025615
+                        </p>
+                    </div>
                 </div>
             </WavyBackground>
             <ToastContainer

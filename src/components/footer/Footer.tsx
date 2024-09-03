@@ -8,6 +8,7 @@ import {
   IconBrandGithub,
   IconBrandLinkedin,
   IconBrandX,
+  IconMail,
 } from "@tabler/icons-react";
 
 const Footer = () => {
@@ -21,7 +22,6 @@ const Footer = () => {
       href: "https://github.com/tyagiharsh607",
       target: "_blank",
       rel: "noopener noreferrer"
-
     },
     {
       title: "LinkedIn",
@@ -36,6 +36,13 @@ const Footer = () => {
         <IconBrandX className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
       href: "https://x.com/tyagiharsh607",
+    },
+    {
+      title: "Email",
+      icon: (
+        <IconMail className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+      ),
+      href: "mailto:tyagiharsh607@gmail.com",
     },
   ];
 
@@ -57,12 +64,10 @@ const Footer = () => {
 
         {/* Social Media Links */}
         <div className="inline-flex mt-4 sm:mt-0">
-       
           <FloatingDock
             items={links}
           />
         </div>
-
 
       </div>
     </footer>

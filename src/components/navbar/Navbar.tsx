@@ -70,7 +70,7 @@ const Navbar = () => {
           <Link
             target="_blank"
             href={
-              "https://drive.google.com/file/d/1PV0wpSKO-mAWYw9vBCZLmlWjQntx58Q5/view"
+              "https://drive.google.com/file/d/1NwdbHQ3JbtANZuwp0ojL98B-LC3tbcOE/view?usp=drive_link"
             }
           >
             <HoverBorderGradient
