@@ -47,7 +47,7 @@ Welcome to my web development portfolio! This project showcases my skills and ex
 
 ## 🖼️ Preview
 
-![Portfolio Screenshot](./public/images/portfolio-screenshot.png)
+https://web-dev-portfolio-harsh.vercel.app/
 
 
 ## 📬 Contact
