@@ -7,7 +7,7 @@ import { TextGenerateEffect } from "../../components/ui/text-generate-effect";
 import { Button } from "@/components/ui/moving-border";
 import Link from "next/link";
 import { BackgroundBeams } from "@/components/ui/background-beams";
-import { Meteors } from "@/components/ui/meteors";
+
 
 export default function Home() {
   useEffect(() => {

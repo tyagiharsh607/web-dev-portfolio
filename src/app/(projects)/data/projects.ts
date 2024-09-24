@@ -26,7 +26,7 @@ const data = {
       title: "E Commerce",
       description:
         "Elevate your online shopping journey with this responsive full-stack project. Featuring Home, Shop, Cart, Payment, Customized Search, and Authentication. E-com delivers a user-friendly experience.",
-      deployedUrl: "https://e-com-mern.onrender.com/",
+      deployedUrl: "https://e-com-hk31.onrender.com/",
       githubUrl: "https://github.com/tyagiharsh607/e-com-full-stack",
       imgSrc: ecom,
       skills: [
