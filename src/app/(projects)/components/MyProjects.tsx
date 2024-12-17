@@ -28,7 +28,7 @@ const MyProjects: React.FC = () => {
 
                                 {/* Project Image */}
                                 <div className="w-full md:w-1/2 max-w-[90%] h-60 relative z-10 mb-4 md:mb-0">
-                                    
+
                                     <div className="relative w-full h-full">
                                         <Image
                                             src={project.imgSrc}

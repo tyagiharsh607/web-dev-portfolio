@@ -4,6 +4,7 @@ import coin from "../../../../public/image/Coin Ranking.png";
 import gym from "../../../../public/image/Gym app.png";
 import photon from "../../../../public/image/Photon.png";
 import wordle from "../../../../public/image/Wordle.png";
+import vote from "../../../../public/image/Vote Snap.png";
 
 const data = {
   bestProjects: [
@@ -27,7 +28,7 @@ const data = {
       description:
         "Elevate your online shopping journey with this responsive full-stack project. Featuring Home, Shop, Cart, Payment, Customized Search, and Authentication. E-com delivers a user-friendly experience.",
       deployedUrl: "https://e-com-hk31.onrender.com/",
-      // deployedUrl: "https://e-com-mern.onrender.com/", 
+      // deployedUrl: "https://e-com-mern.onrender.com/",
       githubUrl: "https://github.com/tyagiharsh607/e-com-full-stack",
       imgSrc: ecom,
       skills: [
@@ -39,6 +40,23 @@ const data = {
     },
     {
       id: 3,
+      title: "Vote Snap",
+      description:
+        "Vote Snap lets users vote on images in real-time, providing instant feedback on popular choices. It offers an interactive platform for image-based voting, engaging users with dynamic results.",
+      deployedUrl: "https://vote-snap.vercel.app/",
+      githubUrl: "https://github.com/tyagiharsh607/vote-snap",
+      imgSrc: vote,
+      skills: [
+        { id: 1, name: "Next JS" },
+        { id: 2, name: "Node JS" },
+        { id: 3, name: "Express JS" },
+        { id: 4, name: "PostgresSQL" },
+        { id: 5, name: "Redis" },
+        { id: 6, name: "Socket.io" },
+      ],
+    },
+    {
+      id: 4,
       title: "Coin Ranking",
       description:
         "A web application that empowers users to access real-time information about various cryptocurrencies. The app offers features such as comparing cryptocurrency rankings, marketplace trends, assessing profit and loss data.",
@@ -51,7 +69,7 @@ const data = {
       ],
     },
     {
-      id: 4,
+      id: 5,
       title: "MyFitness Gym App",
       description:
         "A dynamic Gym App which utilizes cutting-edge technologies. Integrated external APIs to fetch a diverse range of exercises, enabling users to access comprehensive workout routines.",
@@ -64,7 +82,7 @@ const data = {
       ],
     },
     {
-      id: 5,
+      id: 6,
       title: "Photon",
       description:
         "Discover stunning images with Photon. Using the Pexels API, Photon instantly fetches and displays high-quality photos when you search by keyword. Explore and enjoy a vast library of professional-grade images with ease.",
@@ -79,7 +97,7 @@ const data = {
       ],
     },
     {
-      id: 6,
+      id: 7,
       title: "Wordle",
       description:
         "Wordle challenges players to guess a hidden word within six attempts. Each guess provides feedback on correct letters and their positions, incorrect letters, or letters not in the word, offering a fun and engaging word puzzle experience.",
