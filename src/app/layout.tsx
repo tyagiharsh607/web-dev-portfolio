@@ -5,6 +5,7 @@ import { cn } from "@/utils/cn";
 import Navbar from "@/components/navbar/Navbar";
 import Footer from "@/components/footer/Footer";
 import { Analytics } from "@vercel/analytics/next";
+import ChatBotAssistant from "../components/chatbot/chatbot";
 
 const spaceGrotesk = Space_Grotesk({ subsets: ["latin"] });
 
@@ -32,6 +33,7 @@ export default function RootLayout({
       <body className={cn(spaceGrotesk.className, "bg-black text-white")}>
         <Navbar />
         {children}
+        <ChatBotAssistant />
         <Footer />
         <Analytics />
       </body>

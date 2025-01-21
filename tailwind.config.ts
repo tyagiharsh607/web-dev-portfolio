@@ -32,6 +32,8 @@ const config: Config = {
         third: "moveInCircle 40s linear infinite",
         fourth: "moveHorizontal 40s ease infinite",
         fifth: "moveInCircle 20s ease infinite",
+        // Custom animation for the chatbot button image movement
+        "move-left-right": "moveLeftRight 2s ease-in-out infinite",
       },
       keyframes: {
         spotlight: {
@@ -75,6 +77,18 @@ const config: Config = {
           },
           "100%": {
             transform: "translateY(-50%)",
+          },
+        },
+        // Custom keyframe for left-right movement
+        moveLeftRight: {
+          "0%": {
+            transform: "translateX(0)",
+          },
+          "50%": {
+            transform: "translateX(10px)", // Move right
+          },
+          "100%": {
+            transform: "translateX(0)", // Return to the original position
           },
         },
       },
