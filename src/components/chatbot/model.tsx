@@ -1,4 +1,5 @@
 import { GoogleGenerativeAI } from "@google/generative-ai";
+import projects from "../../app/(projects)/data/projects";
 
 const genAI = new GoogleGenerativeAI(String(process.env.NEXT_PUBLIC_GEMINI_API_KEY));
 const model = genAI.getGenerativeModel({
@@ -29,25 +30,11 @@ If questions are asked in this manner, what company are you working at? Consider
 - B.Tech(Computer Science & Engineering): IET, Lucknow.
 
 ** Work Experience:**
-    - QA Automation Intern at Paytm(Current): Responsible for automation testing, ensuring scalability, reliability, and performance of digital payment solutions.
+    - QA Automation Engineer at Paytm(Current): Responsible for automation testing, ensuring scalability, reliability, and performance of digital payment solutions.
 - Web Developer Intern at Cadenect Network Pvt Ltd(Past): Built scalable UI components and implemented interactive features using modern web technologies.
 
 ** Projects:**
-    1. E - Commerce: A responsive full - stack app featuring Home, Shop, Cart, Payments, and Authentication.
-   [Live](https://e-com-hk31.onrender.com/) | [GitHub](https://github.com/tyagiharsh607/e-com-full-stack)
-        2. Truthful Note: A Next.js app for receiving anonymous feedback with robust authentication.
-   [Live](https://truthful-note.vercel.app) | [GitHub](https://github.com/tyagiharsh607/truthful-note)
-            3. Chat App: A MERN - based real - time messaging app with Socket.io and Zustand.
-   [Live](https://chat-app-2qst.onrender.com) | [GitHub](https://github.com/tyagiharsh607/chat-app)
-                4. Vote Snap: A real - time image - based voting app with PostgresSQL and Redis.
-   [Live](https://vote-snap.vercel.app/) | [GitHub](https://github.com/tyagiharsh607/vote-snap)
-                    5. Gym App: A fitness platform with external API integration for workout routines.
-   [Live](https://gym-app-tawny.vercel.app/) | [GitHub](https://github.com/tyagiharsh607/gym-app)
-                        6. Photon: An image discovery app using Pexels API.
-   [Live](https://photon-flame.vercel.app/) | [GitHub](https://github.com/tyagiharsh607/Photon)
-                            7. Wordle: A fun word puzzle game to guess the hidden word in six attempts.
-   [Live](https://wordle-52e0e.web.app/) | [GitHub](https://github.com/tyagiharsh607/Wordle)
-
+${JSON.stringify(projects.bestProjects)}
 ** Achievements:**
                             - Knight(1900 Rating) on Leetcode and 3 - star(1621 Rating) on CodeChef.
 - Active member of GDSC, Robotics Club, Fractal, IET Whiteboard, and ISSAC; participated in 10 + events.
@@ -66,7 +53,7 @@ If questions are asked in this manner, what company are you working at? Consider
     - Portfolio: [harshtyagi.vercel.app](https://harshtyagi.vercel.app)
         - LinkedIn: [LinkedIn Profile](https://www.linkedin.com/in/tyagiharsh607)
 `;
-
+console.log("Prompt", prompt);
 
 // Helper function to maintain limited history
 const updateHistory = (role: any, message: any) => {

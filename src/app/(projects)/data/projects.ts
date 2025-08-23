@@ -6,11 +6,28 @@ import photon from "../../../../public/image/Photon.png";
 import wordle from "../../../../public/image/Wordle.png";
 import vote from "../../../../public/image/Vote Snap.png";
 import chatApp from "../../../../public/image/Chat-app.png";
+import chatpdf from "../../../../public/image/ChatPDF.png";
 
 const data = {
   bestProjects: [
     {
       id: 1,
+      title: "ChatPDF",
+      description:
+        "ChatPDF enables users to upload PDF, TXT, or CSV files and engage in conversational AI interactions with their document contents. Features include intelligent document processing, semantic search with vector embeddings, contextual chat history, and a responsive mobile-first interface for seamless document communication.",
+      deployedUrl: "https://chatpdfbyharsh.vercel.app/",
+      githubUrl: "https://github.com/tyagiharsh607/chat-with-pdf",
+      imgSrc: chatpdf,
+      skills: [
+        { id: 1, name: "React" },
+        { id: 2, name: "FastAPI" },
+        { id: 3, name: "Supabase" },
+        { id: 4, name: "Qdrant" },
+        { id: 5, name: "Google Gemini AI" },
+      ],
+    },
+    {
+      id: 2,
       title: "E Commerce",
       description:
         "Elevate your online shopping journey with this responsive full-stack project. Featuring Home, Shop, Cart, Payment, Customized Search, and Authentication. E-com delivers a user-friendly experience.",
@@ -25,7 +42,7 @@ const data = {
       ],
     },
     {
-      id: 2,
+      id: 3,
       title: "Truthful Note",
       description:
         "Truthful Note is a Next.js application that allows users to receive anonymous messages for various purposes such as product reviews, feedback, confessions, and more. The platform offers a flexible messaging experience with customizable acceptance settings and robust user authentication.",
@@ -39,7 +56,7 @@ const data = {
       ],
     },
     {
-      id: 3,
+      id: 4,
       title: "Full Stack Realtime Chat App",
       description:
         "Full Stack Realtime Chat App is a MERN-based application enabling instant messaging with Socket.io, secure JWT authentication, and an intuitive UI built with TailwindCSS and Daisy UI. It supports online user status, Zustand for state management, and real-time scalability.",
@@ -56,7 +73,7 @@ const data = {
       ],
     },
     {
-      id: 4,
+      id: 5,
       title: "Vote Snap",
       description:
         "Vote Snap lets users vote on images in real-time, providing instant feedback on popular choices. It offers an interactive platform for image-based voting, engaging users with dynamic results.",
@@ -73,7 +90,7 @@ const data = {
       ],
     },
     {
-      id: 5,
+      id: 6,
       title: "Coin Ranking",
       description:
         "A web application that empowers users to access real-time information about various cryptocurrencies. The app offers features such as comparing cryptocurrency rankings, marketplace trends, assessing profit and loss data.",
@@ -86,7 +103,7 @@ const data = {
       ],
     },
     {
-      id: 6,
+      id: 7,
       title: "MyFitness Gym App",
       description:
         "A dynamic Gym App which utilizes cutting-edge technologies. Integrated external APIs to fetch a diverse range of exercises, enabling users to access comprehensive workout routines.",
@@ -99,7 +116,7 @@ const data = {
       ],
     },
     {
-      id: 7,
+      id: 8,
       title: "Photon",
       description:
         "Discover stunning images with Photon. Using the Pexels API, Photon instantly fetches and displays high-quality photos when you search by keyword. Explore and enjoy a vast library of professional-grade images with ease.",
@@ -114,7 +131,7 @@ const data = {
       ],
     },
     {
-      id: 8,
+      id: 9,
       title: "Wordle",
       description:
         "Wordle challenges players to guess a hidden word within six attempts. Each guess provides feedback on correct letters and their positions, incorrect letters, or letters not in the word, offering a fun and engaging word puzzle experience.",

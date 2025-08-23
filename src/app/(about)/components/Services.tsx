@@ -1,7 +1,4 @@
 import React from 'react'
-import { FaLaptopCode } from "react-icons/fa";
-import { FaServer } from "react-icons/fa";
-import { FaJava } from "react-icons/fa";
 import { PinContainer } from '@/components/ui/3d-pin';
 import { Vortex } from '@/components/ui/vortex';
 
@@ -11,24 +8,24 @@ const Services = () => {
             id: 4,
             title: "Frontend Development",
             description: `As a Frontend Developer, I specialize in crafting engaging, user-friendly interfaces using Next.js, React, Tailwind CSS, HTML, CSS, and JavaScript. I focus on building responsive designs that ensure seamless user experiences while optimizing web performance for faster load times and enhanced interactivity.`,
-            icon: <FaLaptopCode className="h-9 w-9 text-gray-500" />,
-           
+
+
         },
 
         {
             id: 5,
             title: "Backend Development",
             description: ` As a Backend Developer, I design and implement robust server-side solutions using Node.js, Express.js, and MongoDB. I focus on creating efficient APIs, managing databases, and ensuring secure, scalable architecture to support seamless frontend interactions and optimize overall application performance.`,
-            icon: <FaServer className="h-8 w-8 text-gray-500" />,
-           
+
+
         },
 
         {
             id: 6,
-            title: "Full Stack Development",
-            description: `As a Full Stack Developer, I build comprehensive web apps using MERN Stack-MongoDB, Express.js, React, and Node.js. My expertise covers both frontend and backend development, enabling me to create fully integrated, responsive, and performance-optimized applications that deliver a complete user experience.`,
-            icon: <FaJava className="h-9 w-9 text-gray-500" />,
-           
+            title: "GenAI Development",
+            description: `As a GenAI Developer, I build advanced AI-driven apps using LLMs, LangChain, and vector databases. My expertise covers prompt engineering and model integration, enabling me to deliver intelligent, responsive, and performance-optimized applications that provide seamless user experiences.`
+
+
         },
     ];
     return (
