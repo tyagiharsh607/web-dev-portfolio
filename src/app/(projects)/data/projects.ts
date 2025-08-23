@@ -6,7 +6,7 @@ import photon from "../../../../public/image/Photon.png";
 import wordle from "../../../../public/image/Wordle.png";
 import vote from "../../../../public/image/Vote Snap.png";
 import chatApp from "../../../../public/image/Chat-app.png";
-import chatpdf from "../../../../public/image/ChatPDF.png";
+import chatpdf from "../../../../public/image/chatPdf.png";
 
 const data = {
   bestProjects: [
