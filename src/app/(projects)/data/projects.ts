@@ -15,7 +15,7 @@ const data = {
       title: "ChatPDF",
       description:
         "ChatPDF enables users to upload PDF, TXT, or CSV files and engage in conversational AI interactions with their document contents. Features include intelligent document processing, semantic search with vector embeddings, contextual chat history, and a responsive mobile-first interface for seamless document communication.",
-      deployedUrl: "https://chatpdfbyharsh.vercel.app/",
+      deployedUrl: "https://chatpdf.harshtyagi.in/",
       githubUrl: "https://github.com/tyagiharsh607/chat-with-pdf",
       imgSrc: chatpdf,
       skills: [
